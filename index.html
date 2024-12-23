@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrCafe - Your Neighborhood Cafeteria</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fff3a2;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #6F4F37;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        /* Services Section */
+        .services {
+            background-color:#6F4F37;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .service-list {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+
+        .service-item h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .service-item p {
+            font-size: 16px;
+        }
+
+        /* Menu Section */
+        .menu {
+            background-color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu-item {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .menu-item p {
+            font-size: 18px;
+            color: #7f8c8d;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #6F4F37;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>MrCafe</h1>
+        <p>Your Neighborhood Cafeteria</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About MrCafe</h2>
+        <p>MrCafe was created with a simple mission: to bring delicious, fresh, and affordable meals to the community. Founded by Velichet Sravan Kumar in 2022, we have quickly become the go-to spot for those craving a quick meal or a place to unwind.</p>
+        <img src="img.jpg" alt="MrCafe Interior">
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Delivery</h3>
+                <p>Enjoy our meals delivered right to your doorstep.</p>
+            </div>
+            <div class="service-item">
+                <h3>ToGo</h3>
+                <p>Order your meal and take it on the go.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pickup</h3>
+                <p>Skip the line and pick up your order from our counter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Morning Delights</h3>
+                <p>Scrambled Eggs with Toast</p>
+                <p>Freshly Brewed Coffee</p>
+            </div>
+            <div class="menu-item">
+                <h3>Noon Specials</h3>
+                <p>Grilled Chicken Sandwich</p>
+                <p>Caesar Salad</p>
+            </div>
+            <div class="menu-item">
+                <h3>Evening Treats</h3>
+                <p>Cheese Pizza</p>
+                <p>Chocolate Brownie</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MrCafe. All Rights Reserved. Created by <a href="#">Velichet Sravan Kumar</a>.</p>
+    </footer>
+
+</body>
+</html>
